@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/icon/icon.png" />
+  </head>
+
+  <body>
+    <h1 id="title">Twice Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the Twice
+    </p>
+    <form id="survey-form">
+      <label for="name" id="name-label"
+        >Name
+        <input id="name" type="text" placeholder="enter your name" required />
+      </label>
+      <label for="email" id="email-label"
+        >Email
+        <input
+          id="email"
+          type="email"
+          placeholder="enter your email"
+          required
+        />
+      </label>
+      <label for="number" id="number-label"
+        >Age
+        <input
+          id="number"
+          type="number"
+          placeholder="How old are you?"
+          min="5"
+          max="65"
+          required
+        />
+      </label>
+      <label for="dropdown" id="dropdown-label"
+        >How do you know?
+        <select id="dropdown">
+          <option>a</option>
+          <option>a</option>
+        </select>
+      </label>
+      <label for="member" id="member-label">Who's your favorite member? </label>
+      <input type="radio" name="member" value="A" checked />Nayeon <br />
+      <input type="radio" name="member" value="A" />Jongyeon <br />
+      <input type="radio" name="member" value="A" />Momo <br />
+      <input type="radio" name="member" value="A" />Sana <br />
+      <input type="radio" name="member" value="A" /> Jihyo<br />
+      <input type="radio" name="member" value="A" /> Mina<br />
+      <input type="radio" name="member" value="A" /> Dahyun<br />
+      <input type="radio" name="member" value="A" /> Chaeyoung<br />
+      <input type="radio" name="member" value="A" /> Tzuyu<br />
+      <br />
+      <label for="albums" id="albums-label"
+        >Please choose your favorite album?
+      </label>
+      <input type="checkbox" name="member" value="cry-for-me" />Cry For Me
+      <br />
+      <input type="checkbox" name="member" value="eyes-wide-open" />Eyes Wide
+      Open
+      <br />
+      <input type="checkbox" name="member" value="more-and-more" />More and More
+      <br />
+      <input type="checkbox" name="member" value="feels-special" />Feels Special
+      <br />
+      <br />
+      <label for="comments" id="comments-label"
+        >Any comments or suggestions?
+        <textarea id="comments"></textarea>
+      </label>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
